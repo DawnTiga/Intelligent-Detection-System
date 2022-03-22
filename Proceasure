@@ -1,0 +1,13 @@
+[ Ubuntu(ver20.04)_보안로그수집서버 ]
+
+	1. Elasticsearch : log DB 역할
+	2. Kibana : visualization,시각화
+	3. Elastalert(<-sigma rule 적용) : DB에 있는 로그들 감시(해킹&패턴 탐지)
+	4. Slack : 경보 -> 스마트폰
+
+
+[ Win7_일반서버 ]
+
+	1. Sysmon : 좀 더 세부적인 로그를 남기겠다
+	2. Beats (eventlog-beat) : 이벤트로그를 감시
+  3. RTA시뮬레이터
